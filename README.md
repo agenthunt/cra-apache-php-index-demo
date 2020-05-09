@@ -1,8 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is an example on to use index.php as the index file with  [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+Install docker and then
+### `docker-compose up`
+
+This will bring up apache-php server on port 80 
 
 ### `yarn start`
 

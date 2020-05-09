@@ -1,0 +1,11 @@
+version: "3.3"
+services: 
+    apache-php-service:
+        build: 
+            context: ./docker/apache-php
+        ports: 
+            - "80:80"
+            - "443:443" 
+        volumes: 
+            - ./public:/var/www/html
+            - ./logs/apache-php:/var/log/apache2
