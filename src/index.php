@@ -1,3 +1,6 @@
+<?php
+$messageFromPHP = 'hello from php';
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -25,6 +28,9 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <script>
+      var messageFromPHP = "<?php echo $messageFromPHP; ?>";
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

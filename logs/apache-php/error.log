@@ -1,5 +1,0 @@
-AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.2. Set the 'ServerName' directive globally to suppress this message
-[Sat Mar 13 21:23:18.647545 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
-[Sat Mar 13 21:23:18.649205 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
-[Sat Mar 13 21:23:26.634083 2021] [autoindex:error] [pid 18] [client 172.21.0.1:56330] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
-[Sat Mar 13 21:23:40.602136 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
